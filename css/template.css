@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    box-sizing: border-box;
+}
+
+.sidenav{
+    height: 100%;
+    width: 280px;
+    position: fixed;
+    top: 0;
+    left: -280px; 
+    background-color: #033683;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 39px;
+    z-index: 1;
+}
+
+.sidenav .bcplogo{
+    width: 12%;
+    height: 3.5%;
+    margin-top: -150px;
+    margin-left: 9%;
+}
+
+
+/* upper nav open*/
+.sidenav .nav-link{
+    margin-top: -16%;
+    margin-left: 38%;
+}
+
+.sidenav .nav-link li{
+    position: relative;
+    list-style: none;
+    height: 50px;
+    width: 45%;
+  }
+
+.sidenav .nav-link .bellNotiff{
+    margin-top: -16%;
+    margin-left: 10%;
+}
+
+.sidenav .nav-link .userProfile{
+    margin-top: -38%;
+    margin-left: 50%;
+}
+
+.sidenav .nav-link li a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.4s ease;
+  }
+
+.sidenav .nav-link li i{
+    min-width: 60px;
+    text-align: center;
+    font-size: 22px;
+    color: lightgray;
+  }
+
+  .avatar{
+    width: 80%;
+    height: 80%;
+    margin-left: -47%;
+    margin-top: 30%;
+    border-radius: 50%;
+  }
+
+.user-profile{
+    margin-left: -60%;
+    
+  }
+
+  tr,td{
+    text-align: center;
+  }
+
+  .user-name{
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .user-mail{
+    color: #A8A8A8;
+    font-size: 13px;
+   
+  }
+  
+
+/* upper nav close*/
+
+/* lower nav */
+.sidenav .nav-links{
+    margin-top: 5%;
+    margin-left: -15%;
+    text-decoration: none;
+  }
+
+.sidenav .nav-links li{
+    position: relative;
+    list-style: none;
+    height: 50px;
+  }
+.sidenav .nav-links li a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.4s ease;
+  }
+  
+.sidenav .nav-links li a:hover{
+    background: gray;
+    border-radius: 10px;
+  }
+
+.sidenav .nav-links li i{
+    min-width: 60px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+  }
+
+.sidenav .nav-links li a .links_name{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    white-space: nowrap;
+  }
+
+/* hover effect for links */
+.sidenav a:hover{
+    color: #f1f1f1;
+}
+
+/* Departments */
+
+.sidenav::-webkit-scrollbar{
+  width: 0px;
+
+}
+
+.dashboard{
+  border: 0.5px solid #4D6EA0;
+  height: 10%;
+  width: 100%;
+  border-left: none;
+  border-right: none;
+}
+
+tr,td{
+  text-align: center;
+}
+
+.administrative{
+  border: 0.5px solid #4D6EA0;
+  height: 10%;
+  width: 100%;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+tr,td{
+  text-align: center;
+}
+
+.main{
+  margin-left: 9%;
+  font-size: 14px;
+  color: #7064DD;
+
+}
+
+.sub{
+  color: #A8A8A8;
+  margin-left: 9%;
+  font-size: 12px;
+}
+
+.admission{
+  border: 0.5px solid #4D6EA0;
+  height: 10%;
+  width: 100%;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+tr,td{
+  text-align: center;
+}
+
+.main{
+  margin-left: 9%;
+  font-size: 14px;
+  color: #7064DD;
+
+}
+
+.sub{
+  color: #A8A8A8;
+  margin-left: 9%;
+  font-size: 12px;
+}
+
+.sidenav a, .dropdownCashier .dropdown-btn{
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+  display: block;
+  border: none;
+  background: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+.dropdownCashier .dropdown-btn i{
+  min-width: 60px;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}
+
+.dropdownCashier .dropdown-btn .droplinks_name{
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  white-space: nowrap;
+  margin-left: -3%;
+}
+
+.dropdownCashier .droplinks_name:hover{
+  background-color:#A8A8A8;
+}
+
+
+.sidenav a:hover, .dropdown-btn:hover{
+  color: #f1f1f1;
+}
+
+.active {
+  background-color: #033683;
+  color: white;
+}
+
+
+.dropdown-container{
+  display: none;
+  background-color: #033683;
+  padding-left: 8px;
+  margin-top: 5%;
+}
+
+.dropdown-container .dropdown-a{
+  margin-left: 14%;
+  padding: 15px;
+}
+
+.dropdown-container .dropdown-a:hover{
+  background-color: #A8A8A8;
+}
+
+.fa-caret-down{
+  float: right;
+  padding-right: 8px;
+}
+
+tr,td{
+  text-align: center;
+}
+
+.main{
+  margin-left: 9%;
+  font-size: 14px;
+  color: #7064DD;
+
+}
+
+.sub{
+  color: #A8A8A8;
+  margin-left: 9%;
+  font-size: 12px;
+} 
+
+.enrollment{
+  border: 0.5px solid #4D6EA0;
+  height: 10%;
+  width: 100%;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+ }
+ 
+
+tr,td{
+  text-align: center;
+}
+
+.main{
+  margin-left: 9%;
+  font-size: 14px;
+  color: #7064DD;
+  
+}
+
+.sub{
+  color: #A8A8A8;
+  margin-left: 9%;
+  font-size: 12px;
+} 
+
+#uppernav{
+    transition: margin-left 0.3s;
+    padding: 12px;
+    
+}
+
+.upnav{
+    
+    border-bottom: 2px solid lightgray;
+}
+
+/* button to open or close the sidebar */
+.openbtn{
+    font-size: 21px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 25px;
+    margin-bottom: .3%;
+    
+}
+
+/* wala ka nang babaguhin sa taas */
+
+.container{
+ /* dito kana mag simula */
+}
